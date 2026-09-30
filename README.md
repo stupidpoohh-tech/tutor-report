@@ -21,7 +21,7 @@ Git 저장소 `stupidpoohh-tech/tutor-report` 연결 후 다음 설정을 사용
 | Build output directory | `.` (index.html이 있는 저장소 루트) |
 | 환경 변수 | 필요 없음 |
 
-배포 설정은 [Cloudflare 정적 HTML 안내](https://developers.cloudflare.com/pages/framework-guides/deploy-anything/) 및 [빌드 설정](https://developers.cloudflare.com/pages/configuration/build-configuration/)을 참고합니다. 실제 배포는 별도로 실행해야 합니다.
+배포 설정은 [Cloudflare 정적 HTML 안내](https://developers.cloudflare.com/pages/framework-guides/deploy-anything/) 및 [빌드 설정](https://developers.cloudflare.com/pages/configuration/build-configuration/)을 참고합니다. 배포 주소: https://tutor-report.pages.dev . GitHub main 변경 시 자동으로 운영 배포됩니다.
 
 ## 이미지 작업 상태 — 미완료
 
@@ -33,7 +33,7 @@ Git 저장소 `stupidpoohh-tech/tutor-report` 연결 후 다음 설정을 사용
 
 1. 원본을 직접 확인해 지난 기말 서술형 미작성 / 이번 중간 서술형 시도 영역을 선정합니다.
 2. The Dot, Bridge, Self-discovery의 실제 밑줄·근거 표시를 확인합니다. 사진이 뒷받침하지 않는 설명은 수정합니다.
-3. 학생 식별 정보와 불필요한 여백을 제외하여 해당 부분만 크롭하고 `assets/`에 저장합니다. 원본은 공개 저장소에 넣지 않습니다.
+3. 학생 식별 정보와 불필요한 여백을 제외하여 해당 부분만 크롭하고 `assets/`에 저장합니다. 보고서에는 필요한 크롭 이미지만 연결합니다.
 4. 06~08절의 `.image-pending` 요소를 실제 `<img>`로 교체하고 원본 파일명·크롭 영역을 기록합니다. 이미지에는 width/height, 의미 있는 alt, loading="lazy"를 지정합니다.
 5. 원본 확인 대기 안내를 제거하고 관찰된 사실만 캡션으로 적습니다.
 
